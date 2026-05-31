@@ -66,23 +66,24 @@ curl -X POST http://localhost:5000/predict \
 ---
 
 ## 🏗️ Project Structure
+
+```
 churn-predictor/
 ├── data/
-│   ├── telco_churn.csv                 # raw IBM Telco dataset
-│   └── telco_churn_processed.csv       # cleaned + engineered
+│   ├── telco_churn.csv
+│   └── telco_churn_processed.csv
 ├── notebooks/
-│   ├── 01_data_exploration.ipynb       # EDA, cleaning, visualizations
-│   ├── 02_feature_engineering.ipynb    # feature creation + encoding
-│   └── 03_model_building.ipynb         # training, tuning, evaluation
+│   ├── 01_data_exploration.ipynb
+│   ├── 02_feature_engineering.ipynb
+│   └── 03_model_building.ipynb
 ├── src/
-│   └── app.py                          # Flask REST API
+│   └── app.py
 ├── models/
-│   ├── churn_model.pkl                 # trained Random Forest
-│   ├── scaler.pkl                      # fitted StandardScaler
-│   └── feature_names.pkl               # feature order for API
+│   ├── churn_model.pkl
+│   ├── scaler.pkl
+│   └── feature_names.pkl
 └── requirements.txt
-
----
+```
 
 ## ⚙️ How to Run
 

@@ -3,8 +3,7 @@
 > Predicts which telecom customers will leave — before they do.  
 > Built following production ML standards with a live REST API.
 
----
-
+---       
 ## 🎯 Business Problem
 
 Telecom companies lose 15–25% of customers annually.  
